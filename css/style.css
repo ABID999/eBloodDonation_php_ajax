@@ -1,0 +1,188 @@
+
+
+.banner{
+    background-color:#F17F7F;
+
+    height:500px;
+}
+.banner img{
+    height:500px;
+    float:right;
+}
+.banner-text{
+    color:white;
+    margin-top:100px;
+}
+
+
+
+.achivements{
+    height:500px;
+    background-color: rgba(190, 240, 157, 0.526);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    padding:20px;
+    
+}
+
+
+.achivement{
+    width:30%;
+    height:33%;
+    background: rgb(12, 143, 12);
+    text-align:center;
+    display:inline-block;
+    color:white;
+    padding-top:30px;
+    margin:5px;
+}
+
+
+.requests{
+    height: 500px;
+    background-color: rgba(162, 202, 255, 0.326);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    overflow:auto; 
+}
+
+.request{
+    width:100%;
+    background: rgba(162, 202, 255, 0.9); 
+    padding:20px;
+    margin-bottom:10px;
+}
+.request *{
+    display:inline;
+}
+.group{
+    float:right;
+}
+
+
+
+
+
+
+
+footer{
+    background-color:black;
+    height:400px;
+    color:white;
+    padding-top:100px;
+}
+
+
+
+
+
+
+
+/* registration */
+
+#regBody{
+    background-color:#E8E9F2;
+}
+
+.form-body{
+    background-color:white;
+    box-shadow: 0 2px 10px  grey;
+    height:640px;
+    width:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    border-radius:10px;;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:5px;
+}
+.registration{
+    width:100%;
+    position:absolute;
+    padding:1px 30px;
+}
+.login{
+    width:100%;
+    padding:30px;
+    position:absolute;
+}
+.form-body li{
+    width:50%;
+}
+
+
+
+/*----------------------- user page--------------------- */
+
+.user-body{
+
+    background:#FEFEFE;
+}
+
+.request-section{
+    background:rgba(241, 127, 127, 0.445);
+    padding:30px;
+    margin-top: 20px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.request-section *{
+    margin:5px;
+}
+.request-section button{
+    display:block;
+    width:250px;
+    margin:20px auto 0px auto;
+    text-align: center;
+
+}
+
+
+
+.user-body .requests{
+    height: 400px;
+    background-color: #F5F6FA;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    overflow:auto; 
+}
+
+.request{
+    width:100%;
+    background: rgba(167, 205, 255, 0.493); 
+    padding:20px;
+    margin-bottom:10px;
+}
+
+
+
+
+
+
+table thead tr th:hover{
+    background:green;
+}
+
+
+.hide{
+    /* display:none; */
+}
